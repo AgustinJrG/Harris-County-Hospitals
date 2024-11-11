@@ -20,15 +20,27 @@ From the original data set the following columns were found, County, City, HHS_R
 
 #### CHARITY
 
+From the original data set the following columns were found, HHS_Region, County, Facility, Measure Name, Measure Value, and Calendar Year. Within the Measure Name column there were five distinct values given, Total Uncompensated Care, Total Net Patient Revenue, Total Gross Patient Revenue, Total Charity Care Charges, and Total Bad Debt Charges. To make this data set more efficient and easier to read a query was ran to make each of the five distinct measure name values into their own columns with the appropriate measure value.
 
+For this analysis only the Total Uncompensated Care data was needed. The Total Uncompensated Care is defined as, 'Care for which no payment is expected or no charge is given. It is the sum of bad debt and charity care taken in  by a hosputal or other health care organization in providing medical care to patients who are uninsured or are unable to pay.'. It is for this reason that this measure is the most important to define as 'Charity'. A query was ran to add up all Total Uncompensated Care given by facilities within a county within a given year.
+
+
+#### SURGERY
+
+From the Surgery Data Set the following columns were found, HHS_Region, County, Facility, Measure Name, Measure Value, and Calendar Year. Under the Measure Name column there were three distinct values which are, Outpatient Surgical Operations, Number of Operating Rooms, and Inpatient Surgical Operations. To make this data set more efficient and easier to read a query was ran to make each of the three distinct measure name values into their own columns with corresponding measure value.
+
+For this analsis the amount of surgeries was needed. To accomplish this Outpatient Surgical Operations and Inpatient Surgical Operations were added together for each County and Calendar Year.
 
 ## METHODS
 
 #### ADMISSIONS
+  Bar
 #### BEDS
+  Scatter Plot
 #### CHARITY
+  Histogram
 #### SURGERY
-
+  Pie
 ## FINDINGS
 
 ## DASHBOARD
