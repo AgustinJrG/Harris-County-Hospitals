@@ -36,10 +36,16 @@ For this analsis the amount of surgeries was needed. To accomplish this Outpatie
 #### ADMISSIONS
   Bar
 #### BEDS
+
+The Scatter Plot chart has two variables. Beds and Chariety.
   Scatter Plot
 #### CHARITY
+
+
   Histogram
 #### SURGERY
+
+The Pie Chart was used because it helps visualize the percentage of Harris County surgeries in the state of Texas.
   Pie
 ## FINDINGS
 
