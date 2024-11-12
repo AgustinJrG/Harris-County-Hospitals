@@ -2,6 +2,7 @@
 
 ## PURPOSE
 
+The purpose of this project is to help uncover patterns or trends that may not be immediately obvious within Texas' Healthcare Facilities (Hospitals).
 ## DATA SELECTION
 
 The data used for this project was found on the Texas Department of State Health Services website. From here the following Texas Hospital Data was collected, Facility and Bed Counts, Chairty Care, Surgical Operations, Admissions, Inpatient Days and Length of Stay. The website offered records from 2017 through 2022, but only records from 2017 through 2019 were used. The reason for this being is that in 2022 the world experienced Covid-19. An unprecedented virus that impacted the Healthcare Industry and would have an unusual impact on the numbers recorded for those years specially for Charity Care, Surgical Operations and Admissions.
@@ -34,20 +35,23 @@ For this analsis the amount of surgeries was needed. To accomplish this Outpatie
 ## METHODS
 
 #### ADMISSIONS
-  Bar
+
+The Bar Chart was used for admmissions for side by side comparisons between the Top 5 Texas Counties with the most admissions per year. Aside from being the same Counties and the same rank between 2017 and 2019, one thing that stuck out was how many more admissions Harris County had compared to the other four. One reason this my be the case is due to the population size of Harris. In 2023, Harris County had a population above 4 million. The 2nd rank Admission's county was Dallas County, which in 2023 had a population of 2 million. This double in population size can also be seen in the double of amount of admissions Harris County has compared to Dallas County.
+  
 #### BEDS
 
-The Scatter Plot chart has two variables. Beds and Chariety.
-  Scatter Plot
+The Scatter Plot chart has two variables, Beds and Total Uncompensated Care (Charity). This chart is helpful in spotting possible correlations and outliers. From the chart you can see the trend that the more beds a county has the more Total Uncompensated Care (Charity) they will have. Using the two variables, Beds and Total Uncompensated Care, a few outliers pop up, mainly five of them. Upon further research, these five are the biggest counties in the state. This is due to the location of these five counties being near the most populous cities of Texas. Which are Houston, Dallas, San Antonio and Texas.
+
 #### CHARITY
 
+The Histogram Chart is useful for this case to show the distribution of Total Uncompensated Care in Texas per County. With this graph we were able to recognize that nearly half of Texas's Total Uncompensated Care is spread amoung five Counties.
 
-  Histogram
 #### SURGERY
 
 The Pie Chart was used because it helps visualize the percentage of Harris County surgeries in the state of Texas.
-  Pie
 ## FINDINGS
+
+A pattern that kept popping up is the correlation between a County's Population vs a County's Measurement. Take for example the Admissions Chart. In 2019, Harris County had double the amount of Admissions compared to Dallas County, the 2nd Rank for that year. During this year, Harris County also had double the population of Dallas County, with Harris County having about 4 million people and Dallas having 2 million people. Since Harris County has such a major difference in population compared to other Counties in Texas, their yearly numbers for Admissions, Beds, Total Uncompensated Care and Surgeries will be higher than the rest.
 
 ## DASHBOARD
 [Dashboard Link](https://public.tableau.com/app/profile/agustin.garcia3499/viz/HarrisCompare/Pie)
